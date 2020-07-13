@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24CF88A724B8D55F00C2E841 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24CF88A624B8D55F00C2E841 /* GoogleMobileAds.framework */; };
 		507818A22196508400E5A44A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 507818982196508300E5A44A /* AppDelegate.m */; };
 		507818A32196508400E5A44A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 507818992196508300E5A44A /* LaunchScreen.xib */; };
 		507818A42196508400E5A44A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5078189B2196508300E5A44A /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		24CF88A624B8D55F00C2E841 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
 		507818972196508300E5A44A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		507818982196508300E5A44A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		5078189A2196508300E5A44A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -33,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24CF88A724B8D55F00C2E841 /* GoogleMobileAds.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +63,7 @@
 			children = (
 				507818962196508300E5A44A /* AdManagerRewardedVideoExample */,
 				84E1845E1B30D695002ADFFB /* Products */,
+				24CF88A624B8D55F00C2E841 /* GoogleMobileAds.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,7 +106,6 @@
 				TargetAttributes = {
 					84E1845C1B30D695002ADFFB = {
 						CreatedOnToolsVersion = 6.3.1;
-						
 					};
 				};
 			};
@@ -111,6 +114,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -264,6 +268,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAssets;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/AdManagerRewardedVideoExample/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -277,6 +285,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAssets;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/AdManagerRewardedVideoExample/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

@@ -15,8 +15,7 @@
 //
 
 #import "ViewController.h"
-
-#import <GoogleMobileAds/GoogleMobileAds.h>
+#import "GoogleMobileAds.h"
 
 typedef NS_ENUM(NSUInteger, GameState) {
   kGameStateNotStarted = 0,  ///< Game has not started.
